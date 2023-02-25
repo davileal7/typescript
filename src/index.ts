@@ -238,10 +238,9 @@ function BaseParamters() {
                 createAt = new Date()
             };
     };
-    
 }
 
-@BaseParamters();
+@BaseParamters()
 class Person {
     name 
 
