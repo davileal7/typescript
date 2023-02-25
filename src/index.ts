@@ -236,20 +236,20 @@ function BaseParamters() {
             return class extends constructor {
                 id = Math.random();
                 createAt = new Date()
-            }
-    }
+            };
+    };
     
 }
 
-@BaseParamters()
+@BaseParamters();
 class Person {
     name 
 
     constructor(name: string) {
         this.name = name
-    }
-}
+    };
+};
 
-const sam = new Person("Sam")
+const sam = new Person("Sam");
 
-console.log(sam)
+console.log(sam);
